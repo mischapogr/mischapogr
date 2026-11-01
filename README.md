@@ -12,7 +12,7 @@ A website template for a fictional stove and fireplace business, with an interac
 ### [platform-ipam](https://github.com/mischapogr/platform-ipam)
 IP address allocation with a PostgreSQL ledger, NetBox integration, and REST, CLI and Terraform clients. The focus is on predictable allocation, safe retries and a clear release lifecycle. **Development preview** with local simulation checks; live AWS integration remains unqualified.
 
-The [companion Terraform provider](https://github.com/mischapogr/terraform-provider-platformipam) is available as a release candidate.
+The [companion Terraform provider](https://github.com/mischapogr/terraform-provider-platformipam) is published on the [Terraform Registry](https://registry.terraform.io/providers/mischapogr/platformipam/latest) as **0.1.0-rc.1** (12 October 2026). It is a signed release candidate validated in local simulations; live AWS integration is not yet qualified.
 
 ### [platform-signal](https://github.com/mischapogr/platform-signal)
 A Rust project for durable log and security-event ingestion, Parquet storage, queries and rule-based findings. **In development**, with no production release yet; the repository records the current implementation and verification limits.
